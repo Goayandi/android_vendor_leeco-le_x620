@@ -2,7 +2,7 @@
 <AudioParam version="1.0">
   <ParamTree>
     <Param path="System,RCV" param_id="0"/>
-    <Param path="System,HS" param_id="1"/>
+    <Param path="System,HS" param_id="0"/>
     <Param path="System,SPK" param_id="0"/>
     <Param path="System,HSSPK" param_id="0"/>
     <Param path="System,HS5POLE" param_id="0"/>
@@ -14,8 +14,8 @@
     <Param path="Ring,HS5POLE" param_id="0"/>
     <Param path="Ring,HS5POLE_ANC" param_id="0"/>
     <Param path="Music,RCV" param_id="0"/>
-    <Param path="Music,HS" param_id="2"/>
-    <Param path="Music,SPK" param_id="0"/>
+    <Param path="Music,HS" param_id="1"/>
+    <Param path="Music,SPK" param_id="2"/>
     <Param path="Music,HSSPK" param_id="0"/>
     <Param path="Music,HS5POLE" param_id="0"/>
     <Param path="Music,HS5POLE_ANC" param_id="0"/>
@@ -45,7 +45,7 @@
     <Param path="Enforced_Audible,HS5POLE_ANC" param_id="0"/>
     <Param path="DTMF,RCV" param_id="0"/>
     <Param path="DTMF,HS" param_id="0"/>
-    <Param path="DTMF,SPK" param_id="0"/>
+    <Param path="DTMF,SPK" param_id="3"/>
     <Param path="DTMF,HSSPK" param_id="0"/>
     <Param path="DTMF,HS5POLE" param_id="0"/>
     <Param path="DTMF,HS5POLE_ANC" param_id="0"/>
@@ -79,10 +79,13 @@
       <Param name="digital_gain" value="-64,-42,-39,-36,-33,-30,-27,-24,-21,-18,-15,-12,-9,-6,-3,0"/>
     </ParamUnit>
     <ParamUnit param_id="1">
-      <Param name="digital_gain" value="-64,-42,-39,-36,-33,-30,-27,-24,-21,-18,-15,-12,-9,-6,-3,0"/>
+      <Param name="digital_gain" value="-64,-55,-47,-43,-39,-35,-31,-27,-23,-19,-16,-13,-10,-7,-4,0"/>
     </ParamUnit>
     <ParamUnit param_id="2">
-      <Param name="digital_gain" value="-64,-42,-39,-36,-33,-30,-27,-24,-21,-18,-15,-12,-9,-6,-3,0"/>
+      <Param name="digital_gain" value="-64,-55,-51,-47,-43,-39,-35,-31,-27,-23,-19,-16,-13,-10,-7,-4"/>
+    </ParamUnit>
+    <ParamUnit param_id="3">
+      <Param name="digital_gain" value="-64,-42,-39,-36,-35,-34,-33,-32,-31,-30,-29,-28,-27,-26,-25,-24"/>
     </ParamUnit>
   </ParamUnitPool>
 </AudioParam>

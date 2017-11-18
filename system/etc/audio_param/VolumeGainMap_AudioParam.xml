@@ -11,7 +11,6 @@
     <Param path="HS5POLE_ANC" param_id="1"/>
     <Param path="HAC" param_id="0"/>
     <Param path="BT" param_id="6"/>
-    <Param path="TTY" param_id="1"/>
   </ParamTree>
   <ParamUnitPool>
     <ParamUnit param_id="0">

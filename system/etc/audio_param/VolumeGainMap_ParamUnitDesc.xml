@@ -13,7 +13,6 @@
 			<Category name="HS5POLE_ANC" alias="5_pole_headset+ANC,5-pole headset+ANC"/>
 			<Category name="HAC"/>
 			<Category name="BT" alias="BT earphone"/>
-			<Category name="TTY"/>
 		</CategoryType>
 	</CategoryTypeList>
 	<ParamUnit>
